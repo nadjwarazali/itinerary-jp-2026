@@ -119,6 +119,7 @@ const MUSTDO = {
     { icon: "🦌", name: "Nara deer park + Todai-ji exterior", timing: "Oct 10 morning. Done by 11:45AM. Todai-ji exterior FREE.", priority: "ESSENTIAL" },
     { icon: "🏯", name: "Osaka Castle", timing: "Oct 10, ~2:15PM after Nara. Grounds + optional tenshu (¥600).", priority: "ESSENTIAL" },
     { icon: "🏙️", name: "Shinsekai retro district", timing: "Oct 9 afternoon — 5 min walk from E-Stay.", priority: "HIGH" },
+    { icon: "🦁", name: "Namba Yasaka Shrine — giant lion head", timing: "Oct 9, ~3:45PM. FREE. 12-metre lion head building unique in Japan. 10 min walk from Shinsekai, on the way to Dotonbori.", priority: "HIGH" },
   ],
   kyoto: [
     { icon: "⛩️", name: "Fushimi Inari — torii gate hike", timing: "Oct 11, ~11AM. Bag-free after Welcome Desk drop. Push past first 2 clusters.", priority: "ESSENTIAL" },
@@ -128,6 +129,7 @@ const MUSTDO = {
     { icon: "🏯", name: "Kiyomizu-dera at dawn", timing: "Oct 13, 8:00AM. Main visit. Misty, near empty. ¥500.", priority: "ESSENTIAL" },
     { icon: "✨", name: "Ishibe Koji Road", timing: "Oct 13, ~10:15AM. Hidden photogenic alley — stone path, lanterns, bamboo fences.", priority: "HIGH" },
     { icon: "🏮", name: "Gion at dusk + Pontocho dinner", timing: "Oct 11 evening. Hanamikoji + Shirakawa canal. Pontocho for dinner.", priority: "ESSENTIAL" },
+    { icon: "⛩️", name: "Fushimi Inari at night", timing: "Oct 11, ~9PM after Pontocho dinner. Keihan Line 10 min. FREE 24hrs. Torii gates glowing orange — near empty, magical.", priority: "HIGH" },
     { icon: "⛩️", name: "Yasaka Shrine + Maruyama Park", timing: "Oct 13, ~11:40AM. Open 24hrs, FREE. End of Hanamikoji street.", priority: "HIGH" },
     { icon: "🌊", name: "Shirakawa Canal walk", timing: "Oct 13, ~12:20PM. Willow-lined canal, lantern reflections.", priority: "HIGH" },
   ],
@@ -141,6 +143,7 @@ const MUSTDO = {
     { icon: "🏮", name: "Senso-ji at night", timing: "Oct 14, ~9:30PM. 5 min walk from Toukaisou. Kaminarimon lit, lanterns, near empty.", priority: "ESSENTIAL" },
     { icon: "🍜", name: "Shinjukutei Halal Wagyu dinner", timing: "Oct 15, 6:00PM. 3-11-6 Shinjuku B103. Wagyu ramen set. Prayer room on site.", priority: "HIGH" },
     { icon: "🏮", name: "Omoide Yokocho (Memory Lane)", timing: "Oct 15, ~7:15PM. Shinjuku west exit. Smoky, red lanterns, last night atmosphere.", priority: "HIGH" },
+    { icon: "🦖", name: "Godzilla Street + Godzilla Head", timing: "Oct 15, ~7:45PM. Kabukicho, 5 min from Omoide Yokocho. 12m Godzilla head glows at night. FREE from street. Godzilla Store for merch.", priority: "HIGH" },
   ],
 };
 
@@ -346,9 +349,10 @@ const DETAILED = [
       { t: "9:45", d: "📷 DEN DEN TOWN CAMERA SHOPPING — Nipponbashi electronics district, 5 min walk from Kuromon. Key stops: Joshin Denki (large new camera floor, tax-free with passport ✅), K's Denki, and specialist second-hand camera shops along Nipponbashi-suji street. Great for camera bodies, lenses, accessories. Bring passport for tax-free shopping — saves 10%.", kind: "highlight", dur: "90 min" },
       { t: "13:00", d: "🕌 JAMAK TAQDIM — Zuhur + Asr at E-Stay room or lobby quiet corner. Then lunch near Shinsekai — kushikatsu restaurant.", kind: "rest", dur: "90 min" },
       { t: "14:30", d: "🏙️ Shinsekai retro district — Tsutenkaku Tower, Billiken statues, retro 1950s Osaka street vibes. 5 min walk from E-Stay.", kind: "sight", dur: "75 min" },
+      { t: "15:45", d: "🦁 NAMBA YASAKA SHRINE — 10 min walk from Shinsekai. 2-9-19 Motomachi, Naniwa Ward. FREE, grounds open 24hrs. Famous for its massive 12-metre LION HEAD building (Shishi-den) — completely unique in Japan. Lion's open jaw swallows evil spirits + brings good fortune. Glows dramatically at dusk. Quick 20 min stop — very photogenic!", kind: "highlight", dur: "20 min" },
       { t: "15:00", d: "Check in to E-Stay Ebisu properly. Shower and rest — mandatory after overnight bus.", kind: "rest", dur: "90 min" },
       { t: "17:00", d: "Shinsaibashi covered arcade (15 min metro). 600m of shops — browse lightly.", kind: "sight", dur: "75 min" },
-      { t: "18:30", d: "🏮 DOTONBORI at night — start at Ebisu Bridge for the iconic 🏃 GLICO MAN neon sign photo (running man in lights, best shot from the bridge). Walk west along the canal → 🦀 KANI DORAKU — giant mechanical moving crab sign above the restaurant entrance, one of Osaka's most iconic landmarks. Canal walk, neon reflections on water. Halal takoyaki stalls near canal. Dinner crawl along the strip.", kind: "highlight", dur: "2.5 hrs" },
+      { t: "18:30", d: "🍜 MARHABA HALAL RAMEN — dinner before canal walk! 1F Juraku Bldg, 1-5-19 Sennichimae, Chuo-ku (2 min from Glico Man). Halal ramen, prayer space ✅. Then 🏮 DOTONBORI — start at Ebisu Bridge for the iconic 🏃 GLICO MAN neon sign photo (running man in lights, best shot from the bridge). Walk west along the canal → 🦀 KANI DORAKU — giant mechanical moving crab sign above the restaurant entrance, one of Osaka's most iconic landmarks. Canal walk, neon reflections on water. Halal takoyaki stalls near canal. Dinner crawl along the strip.", kind: "highlight", dur: "2.5 hrs" },
       { t: "21:00", d: "🕌 JAMAK TAKHIR — Maghrib + Isha at E-Stay room. Sleep early — tomorrow is Nara + Castle.", kind: "rest", dur: "20 min" },
     ]
   },
@@ -389,6 +393,7 @@ const DETAILED = [
       { t: "15:00", d: "Rest at machiya. Heated tatami floors, private garden — enjoy it.", kind: "rest", dur: "90 min" },
       { t: "17:00", d: "🏮 Gion at dusk — Hanamikoji, Shirakawa canal. Best light 5:30–7 PM when lanterns glow.", kind: "highlight", dur: "2 hrs" },
       { t: "19:30", d: "🍽️ PONTOCHO ALLEY dinner — narrow riverside lane parallel to Kamo River, best at night when lanterns reflect on the water. First night in Kyoto — make it count.", kind: "food", dur: "90 min" },
+      { t: "21:00", d: "⛩️ FUSHIMI INARI AT NIGHT — Keihan Line from Gion-Shijo → Fushimi Inari (~10 min, ¥220pp). Open 24hrs FREE. Torii gates lit up with warm orange glow, almost no crowds at this hour. Haunting, mystical atmosphere — completely different from daytime. Walk the lower gates (first 20 min) for best lit sections. Return by Keihan to Gion-Shijo → walk to machiya.", kind: "highlight", dur: "75 min" },
       { t: "21:00", d: "🕌 JAMAK TAKHIR — Maghrib + Isha at machiya tatami room. Quiet, private. Sleep.", kind: "rest", dur: "20 min" },
     ]
   },
@@ -484,6 +489,7 @@ const DETAILED = [
       { t: "16:00", d: "Free time in Shinjuku — Takashimaya Times Square, Isetan department store, or just walk the streets.", kind: "walk", dur: "90 min" },
       { t: "18:00", d: "🍜 SHINJUKUTEI HALAL WAGYU — 3-11-6 Shinjuku B103 (4 min from Shinjuku-sanchome Stn). Wagyu ramen + sushi + karaage set. Halal certified. Prayer room on site. Open till 9PM.", kind: "highlight", dur: "75 min" },
       { t: "19:15", d: "🏮 OMOIDE YOKOCHO (Memory Lane) — narrow smoky alley behind Shinjuku Station west exit. Red lanterns, tiny yakitori stalls. Walk slowly, soak it in. Last night in Japan.", kind: "highlight", dur: "30 min" },
+      { t: "19:45", d: "🦖 GODZILLA STREET (Kabukicho) — 5 min walk from Omoide Yokocho. Walk up Godzilla Road (118.5m street named after Godzilla) toward Hotel Gracery Shinjuku. 12-metre LIFE-SIZE GODZILLA HEAD glows dramatically on the 8th floor terrace at night. FREE from street level. Perfect last night Tokyo photo! Also has Godzilla Store for merch.", kind: "highlight", dur: "20 min" },
       { t: "19:45", d: "🕌 JAMAK TAKHIR — Maghrib + Isha at Shinjukutei prayer room (5 min back).", kind: "rest", dur: "20 min" },
       { t: "20:05", d: "Shinjuku → Asakusa (Ginza Line, ~30 min, ¥270pp).", kind: "transit", dur: "35 min" },
       { t: "20:40", d: "Back at Toukaisou. 📦 PACK EVERYTHING TONIGHT. Weigh bags. Set TWO alarms for 6:00AM. Flight 11:10AM.", kind: "rest", dur: "" },
@@ -542,7 +548,7 @@ export default function App() {
   const [dark, setDark] = useState(true);
   const [yenInput, setYenInput] = useState("");
   const [rmInput, setRmInput] = useState("");
-  const RATE = 0.0259;
+  const RATE = 2.605/100;
   const handleYen = (v) => { setYenInput(v); setRmInput(v === "" ? "" : (parseFloat(v) * RATE).toFixed(2)); };
   const handleRm = (v) => { setRmInput(v); setYenInput(v === "" ? "" : Math.round(parseFloat(v) / RATE).toString()); };
   const dm = {
@@ -652,7 +658,7 @@ export default function App() {
               style={{ width: "100%", paddingLeft: "30px", paddingRight: "8px", paddingTop: "6px", paddingBottom: "6px", background: dark ? "rgba(255,255,255,0.07)" : "#ffffff", border: dark ? "1px solid rgba(255,255,255,0.12)" : "1px solid rgba(0,0,0,0.15)", borderRadius: "8px", color: dark ? "#4ade80" : "#166534", fontSize: "13px", fontWeight: "bold", outline: "none", boxSizing: "border-box" }}
             />
           </div>
-          <span style={{ fontSize: "8px", color: dark ? "#555" : "#9CA3AF", whiteSpace: "nowrap", flexShrink: 0 }}>¥100=RM2.59</span>
+          <span style={{ fontSize: "8px", color: dark ? "#555" : "#9CA3AF", whiteSpace: "nowrap", flexShrink: 0 }}>¥100=RM2.605</span>
         </div>
       </div>
 
@@ -1101,7 +1107,7 @@ export default function App() {
         <div style={{ padding: "20px 16px", background: dark ? "transparent" : "#f0f2f5", minHeight: "100vh" }}>
           {/* Header */}
           <div style={{ background: dark ? "rgba(255,255,255,0.03)" : "#ffffff", border: dark ? "1px solid rgba(255,255,255,0.08)" : "1px solid rgba(0,0,0,0.12)", borderRadius: "10px", padding: "14px", marginBottom: "16px" }}>
-            <div style={{ fontSize: "11px", color: dark ? "#888" : "#374151", marginBottom: "8px" }}>💴 Exchange rate used: ¥100 = RM2.59</div>
+            <div style={{ fontSize: "11px", color: dark ? "#888" : "#374151", marginBottom: "8px" }}>💴 Exchange rate used: ¥100 = RM2.605</div>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
               <div>
                 <div style={{ fontSize: "9px", color: dark ? "#555" : "#374151", letterSpacing: "0.15em", textTransform: "uppercase" }}>Total Paid</div>
@@ -1147,14 +1153,14 @@ export default function App() {
             {
               label: "⏳ STILL TO PAY", color: "#fb923c", bg: "rgba(251,146,60,0.05)",
               items: [
-                { cat: "🚆 NEX", item: "NEX Round Trip x2 — Oct 7 + Oct 16", rm: "~259.00", note: "Buy at Narita JR counter Oct 7" },
-                { cat: "🟢 Suica", item: "Named Regular Suica x2 (¥2,000 each)", rm: "~104.00", note: "Buy at Narita JR counter Oct 7" },
-                { cat: "🚃 Odakyu", item: "Enoshima-Kamakura Freepass x2 (Oct 14)", rm: "~85.00", note: "Buy at Odakyu Shinjuku Oct 14 morning" },
+                { cat: "🚆 NEX", item: "NEX Round Trip x2 — Oct 7 + Oct 16", rm: "~RM383.88", note: "Buy at Narita JR counter Oct 7" },
+                { cat: "🟢 Suica", item: "Named Regular Suica x2 (¥2,000 each)", rm: "~RM153.55", note: "Buy at Narita JR counter Oct 7" },
+                { cat: "🚃 Odakyu", item: "Enoshima-Kamakura Freepass x2 (Oct 14)", rm: "~RM125.91", note: "Buy at Odakyu Shinjuku Oct 14 morning" },
                 { cat: "📦 Yamato", item: "LEG 1: Kawaguchiko → Osaka (Size 140 + Size 80)", rm: "~100", note: "¥3,850 cashless. Oct 8 at FamilyMart Kawaguchiko Station West. 5:40AM." },
                 { cat: "📦 Yamato", item: "LEG 2: Kyoto → Tokyo (Size 140 + Size 80)", rm: "~107", note: "¥4,114 cashless. Oct 13 at FamilyMart Kiyomizu Higashiyama. 7:20AM." },
-                { cat: "👘 Kimono", item: "Kimono rental x2, Asakusa (Oct 15 ~10AM)", rm: "~302.00", note: "⚠️ Pre-book NOW at Yae/Rikawafuku" },
-                { cat: "⛩️ Entries", item: "Kiyomizu ¥500 + Kodai-ji ¥600 + Tenryu-ji ¥500 + Great Buddha ¥300 + Hasedera ¥400", rm: "~59.00", note: "Pay on day" },
-                { cat: "🚕 Taxi", item: "Oct 8: Sawa Hotel→Yamanaka + Yamanaka→Honcho St", rm: "~143.00", note: "Pay on day" },
+                { cat: "👘 Kimono", item: "Kimono rental x2, Asakusa (Oct 15 ~10AM)", rm: "~RM294.05", note: "Kiraboshi Asakusa walk-in ✅" },
+                { cat: "⛩️ Entries", item: "Kiyomizu ¥500 + Kodai-ji ¥600 + Tenryu-ji ¥500 + Great Buddha ¥300 + Hasedera ¥400", rm: "~RM57.58", note: "Pay on day" },
+                { cat: "🚕 Taxi", item: "Oct 8: Sawa Hotel→Yamanaka + Yamanaka→Honcho St", rm: "~RM134.36", note: "Pay on day" },
                 { cat: "🚇 Suica", item: "Top-ups full trip (2 pax, ~¥7,700 total)", rm: "~199.00", note: "Top up at konbini/stations throughout" },
               ],
               total: "~1,316–1,368"
